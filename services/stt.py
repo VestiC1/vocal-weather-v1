@@ -1,4 +1,4 @@
-# on passe sur le stt js
+# on passe le stt via js
 
 import os
 import azure.cognitiveservices.speech as speechsdk
