@@ -62,4 +62,4 @@ class OpenMeteoService :
 
 if __name__ == '__main__':
 	om = OpenMeteoService()
-	print(om.get_forecast(47.383331, 0.68333))
+	print(om.get_forecast(47.3900474, 0.6889268))

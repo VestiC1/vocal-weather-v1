@@ -16,4 +16,4 @@ class GEOService:
 
 if __name__ == '__main__':
     geo = GEOService()
-    print(geo.get_coordinates('VkgjvgbluihZLVHLe'))
+    print(geo.get_coordinates('Tours'))
