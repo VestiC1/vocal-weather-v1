@@ -51,3 +51,12 @@ pip install requests-cache retry-requests numpy pandas
 # Reponse open meteo
 code python via le site : https://open-meteo.com/en/docs
 
+# installation fastapi
+```python
+pip install fastapi[all]
+```
+
+# lancer l'application geopy
+```python
+fastapi dev app.py
+```

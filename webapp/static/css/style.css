@@ -1,0 +1,12 @@
+#microphone-button {
+    width: 120px;
+    height: 120px;
+}
+
+#microphone-button i {
+    font-size: 60px;
+}
+
+.w-15{
+    width: 15%;
+}

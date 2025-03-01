@@ -1,3 +1,5 @@
+# on passe sur le stt js
+
 import os
 import azure.cognitiveservices.speech as speechsdk
 
