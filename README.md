@@ -1,5 +1,9 @@
-# vocal-weather-v1
-Projet Vocal Weather - Prédiction météo via demande vocale
+## vocal-weather-v1
+Projet Vocal Weather - Prédiction météo par commande vocale
+L'application permet d'obtenir des prévisions météo en effectuant une demande vocale. L'utilisateur doit préciser au minimum le nom de la ville et le nombre de jours souhaité pour la prédiction.
+
+
+## Installation
 
 # creation environnement
 ```python
@@ -12,51 +16,36 @@ venv\Scripts\activate.bat
 venv\Scripts\deactivate.bat
 ```
 
-# installation azure-cognitiveservices-speech (stt)
+# Installation librairies
 ```python
-pip install azure-cognitiveservices-speech
+pip install -r requirements.txt
 ```
 
-# lancer l'application speech_recognition
+
+## Test des différent Services :
+
+# Azure STT
 ```python
-python stt.py
+python services/stt.py
 ```
 
-# installation transformers - camemBERT (ner with dates)
+# camemBert-NER
 ```python
-pip install transformers
+python services/ner.py
 ```
 
-# lancer l'application camemBERT
+# Geocoding
 ```python
-python ner.py
+python services/geo.py
 ```
 
-# installation geopy
+# Open Meteo
 ```python
-pip install geopy
+python services/meteo.py
 ```
 
-# lancer l'application geopy
-```python
-python geo.py
-```
 
-# installation open meteo
-```python
-pip install openmeteo-requests
-pip install requests-cache retry-requests numpy pandas
-```
-
-# Reponse open meteo
-code python via le site : https://open-meteo.com/en/docs
-
-# installation fastapi
-```python
-pip install fastapi[all]
-```
-
-# lancer l'application geopy
+## Lancement de l'application
 ```python
 fastapi dev app.py
 ```
