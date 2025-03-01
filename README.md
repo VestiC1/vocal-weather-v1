@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 
-# Test des différent Services :
+# Test des différents Services :
 
 ## Azure STT
 ```python
