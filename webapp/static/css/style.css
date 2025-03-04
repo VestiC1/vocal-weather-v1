@@ -10,3 +10,13 @@
 .w-15{
     width: 15%;
 }
+
+body {
+    background-image: url('papier-peint-graphique-2d-gradients-granuleux-colores_23-2151001500.jpg'); /* Remplace par le chemin de ton image */
+    background-size: cover; /* Ajuste l’image pour couvrir tout l’écran */
+    background-position: center; /* Centre l’image */
+    background-repeat: no-repeat; /* Empêche la répétition de l’image */
+    height: 100vh; /* S’assure que le fond couvre toute la hauteur de l’écran */
+    margin: 0;
+    padding: 0;
+}
